@@ -1,5 +1,153 @@
-body {
-  width: 100%;
-  height: 100%;
+
+.h2 {
+  display: block;
+  text-align: center;
+  top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+
+}
+#featured-property {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  width: 800px;
+  text-indent: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 900px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
   margin: 0;
+  padding: 10px 10px 0px 0px;
+  overflow: visible;
+
+}
+
+li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.li a {
+  display: inline-block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+p {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  height: auto;
+  background-color: red;
+}
+.footer .col {
+  width: 25%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: black;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
 }
